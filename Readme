@@ -1,0 +1,42 @@
+# action-repo
+
+This repository was created as part of the TechStaX Developer Assessment.
+
+Its purpose is to simulate GitHub actions such as:
+
+- `PUSH` — Committing and pushing to the main branch.
+- `PULL_REQUEST` — Creating a new branch and submitting a pull request.
+- `MERGE` — Merging the pull request into the main branch.
+
+These actions are intended to trigger webhooks received by the companion repository [`webhook-repo`](https://github.com/teju-sharma/webhook-repo), which logs and displays the events in real-time.
+
+---
+
+## 📝 Simulated Events
+
+1. **Push**
+
+   - Added `changes.txt` and committed to `main`.
+
+2. **Pull Request**
+
+   - Created `dev` branch.
+   - Added `dev.txt` and committed changes.
+   - Submitted a pull request from `dev` to `main`.
+
+3. **Merge**
+   - Merged the pull request into `main`.
+
+---
+
+## 🔗 Related Repository
+
+- [webhook-repo](https://github.com/teju-sharma/webhook-repo): Flask application that receives and displays the webhook data sent from this repository.
+
+---
+
+## 👩‍💻 Author
+
+**Tejaswini Peddi**  
+[GitHub Profile](https://github.com/teju-sharma)  
+Email: pedditejaswini23@gmail.com
